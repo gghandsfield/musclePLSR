@@ -1,0 +1,25 @@
+
+The gastrocnemius muscle is of original length 380mm (38cm) and is elongated by 2cm during foot dorsiflexion.
+
+The lengths are labelled as L1..L6 with:
+
+L1 380
+L2 384
+L3 388 
+L4 392
+L5 396
+L6 400
+
+At each length the muscle is activated to produce a contraction with activation levels given by A1..A6:
+
+A1 0.0
+A2 0.2
+A3 0.4
+A4 0.6
+A5 0.8 
+A6 1.0
+
+where A1 is no activation (passive only) and A6 is maximal activation.
+
+These values can be used in the multivariate regression.
+

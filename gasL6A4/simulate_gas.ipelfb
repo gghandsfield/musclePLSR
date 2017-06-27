@@ -1,0 +1,256 @@
+ CMISS Version 2.1  ipelfb File Version 1
+ Heading: fit - 4,8,15,22,28,34,41,47,50,56,68,74,75,82,90,96
+ 
+ The number of elements is [   42]: 42
+ 
+ Element number [    1]: 1
+ The basis function type for the fibre angle is [1]: 5
+ The basis function type for the imbrication angle is [1]: 5
+ The basis function type for the sheet angle is [1]: 5
+ Enter the 8 numbers for basis 5 [prev]: 23 5 22 4 21 3 22 4
+ 
+ Element number [    2]: 2
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 24 6 23 5 20 2 21 3
+ 
+ Element number [    3]: 3
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 35 23 34 22 33 21 34 22
+ 
+ Element number [    4]: 4
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 36 24 35 23 32 20 33 21
+ 
+ Element number [    5]: 5
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 19 1 24 6 19 1 20 2
+ 
+ Element number [    6]: 6
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 13 12 18 11 17 10 18 11
+ 
+ Element number [    7]: 7
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 14 7 13 12 16 9 17 10
+ 
+ Element number [    8]: 8
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 15 8 14 7 15 8 16 9
+ 
+ Element number [    9]: 9
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 25 19 36 24 31 18 32 20
+ 
+ Element number [   10]: 10
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 26 13 25 19 30 17 31 18
+ 
+ Element number [   11]: 11
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 27 14 26 13 29 16 30 17
+ 
+ Element number [   12]: 12
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 28 15 27 14 28 15 29 16
+ 
+ Element number [   13]: 13
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 37 35 47 34 46 33 47 34
+ 
+ Element number [   14]: 14
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 38 36 37 35 45 32 46 33
+ 
+ Element number [   15]: 15
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 39 25 38 36 44 31 45 32
+ 
+ Element number [   16]: 16
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 48 26 39 25 43 30 44 31
+ 
+ Element number [   17]: 17
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 40 27 48 26 42 29 43 30
+ 
+ Element number [   18]: 18
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 41 28 40 27 41 28 42 29
+ 
+ Element number [   19]: 19
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 57 37 56 47 55 46 56 47
+ 
+ Element number [   20]: 20
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 58 38 57 37 54 45 55 46
+ 
+ Element number [   21]: 21
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 59 39 58 38 53 44 54 45
+ 
+ Element number [   22]: 22
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 60 48 59 39 52 43 53 44
+ 
+ Element number [   23]: 23
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 49 40 60 48 51 42 52 43
+ 
+ Element number [   24]: 24
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 50 41 49 40 50 41 51 42
+ 
+ Element number [   25]: 25
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 89 57 90 56 91 55 90 56
+ 
+ Element number [   26]: 26
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 88 58 89 57 92 54 91 55
+ 
+ Element number [   27]: 27
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 87 59 88 58 93 53 92 54
+ 
+ Element number [   28]: 28
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 86 60 87 59 94 52 93 53
+ 
+ Element number [   29]: 29
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 85 49 86 60 95 51 94 52
+ 
+ Element number [   30]: 30
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 96 50 85 49 96 50 95 51
+ 
+ Element number [   31]: 31
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 84 89 82 90 80 91 82 90
+ 
+ Element number [   32]: 32
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 69 88 84 89 79 92 80 91
+ 
+ Element number [   33]: 33
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 70 87 69 88 78 93 79 92
+ 
+ Element number [   34]: 34
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 71 86 70 87 77 94 78 93
+ 
+ Element number [   35]: 35
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 72 85 71 86 76 95 77 94
+ 
+ Element number [   36]: 36
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 74 96 72 85 74 96 76 95
+ 
+ Element number [   37]: 37
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 61 84 68 82 67 80 68 82
+ 
+ Element number [   38]: 38
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 83 69 61 84 66 79 67 80
+ 
+ Element number [   39]: 39
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 62 70 83 69 65 78 66 79
+ 
+ Element number [   40]: 40
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 63 71 62 70 64 77 65 78
+ 
+ Element number [   41]: 41
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 73 72 63 71 81 76 64 77
+ 
+ Element number [   42]: 42
+ The basis function type for the fibre angle is [5]: 5
+ The basis function type for the imbrication angle is [5]: 5
+ The basis function type for the sheet angle is [5]: 5
+ Enter the 8 numbers for basis 5 [prev]: 75 74 73 72 75 74 81 76

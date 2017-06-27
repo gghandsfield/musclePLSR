@@ -1,0 +1,277 @@
+ CMISS Version 2.1  ipmate File Version 2
+ Heading: fit - 4,8,15,22,28,34,41,47,50,56,68,74,75,82,90,96
+ 
+ Stresses in constitutive law are referred to [2]:
+   (1) Reference (theta) coordinates
+   (2) Body (fibre/transverse) coordinates
+   (3) Body coordinates with active fibre stress
+    3
+ Specify whether the constitutive law is defined by [1]:
+   (1) a Green strain energy function (hyperelastic)
+   (2) a stress/strain-rate relation
+   (3) Gauss point stresses (grid coupling)
+    1
+ Specify whether the strain energy W is given as a function of [3]:
+   (1) the principal strain invariants
+   (2) the principal extension ratios
+   (3) the fibre & transverse strains
+    3
+ Specify the form of strain energy function W [3]:
+   (1) Polynomial  in fibre and transverse normal strains
+   (2) Exponential in fibre and transverse strains
+   (3) Pole-zero in fibre and transverse strains
+   (4) Fibre in fluid
+   (5) Defined in subroutine USER53
+    3
+ The shear terms of the pole-zero are [1]:
+   (1) Determined using the fibre distribution model
+   (2) Input
+    1
+ Enter the number of constitutive law parameters [16]: 16
+ 
+ Specify whether the fibre axis coefficient (kPa) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.1
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.5
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the fibre axis pole is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the fibre axis curvature is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet axis coefficient (kPa) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.1
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.5
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet axis pole is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet axis curvature is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet-normal axis coefficient (kPa) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.1
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.5
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet-normal axis pole is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0.9
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet-normal axis curvature is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the fibre angle std dev (degrees) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet angle std dev (degrees) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet-normal std dev 1 (deg.s) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the sheet-normal std dev 2 (deg.s) is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 5.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the initial fibre extension ratio is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the initial sheet extension ratio is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the initial sheet-normal extension ratio is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether stress-free sarcomere extension ratios are [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+    2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 1.0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether time delay (in secs) to activation is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+    2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0
+ Enter element #s/name [EXIT]: 0
+ 
+ Specify whether the density is [1]:
+  (1) Constant spatially
+  (2) Piecewise constant (defined by elements)
+  (3) Piecewise linear   (defined by nodes)
+  (4) Defined by Gauss points
+  (5) Defined by Grid points
+   2
+ Enter element #s/name [EXIT]: MUS
+ The value is [0]: 0
+ Enter element #s/name [EXIT]: TEN
+ The value is [0]: 0
+ Enter element #s/name [EXIT]: 0
