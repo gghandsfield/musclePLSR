@@ -2,22 +2,27 @@
 script for training and using PLSR models of muscle contraction
 
 Ju Zhang
+
+updated to try support vector regression to improve predictions
+
+Geoff Handsfield
 """
 
 import numpy as np
 from sklearn.pls import PLSRegression
+from sklearn.svm import SVR # add line to import support vector regression functions -gh
 import cmissio
 
 #=========================================================================#
 # constants
 ACTIVATIONS = (0.0, 0.2, 0.4, 0.6, 0.8, 1.0)
 LENGTHS = (380, 384, 388, 392, 396, 400)
-SHAPEFILESTR = '../data/shape_ipnode/gasL%dA%d.ipnode'
-PREDSHAPEFILESTR = '../data/pred_shape_ipnode/pred_gasL%dA%d.ipnode'
-STRAINFILESTR = '../data/strain/strainL%dA%d.exdata'
-PREDSTRAINFILESTR = '../data/pred_strain/pred_strainL%dA%d.exdata'
-STRESSFILESTR = '../data/stress/stressL%dA%d.exdata'
-PREDSTRESSFILESTR = '../data/pred_stress/pred_stressL%dA%d.exdata'
+SHAPEFILESTR = '../shape_ipnode/gasL%dA%d.ipnode'
+PREDSHAPEFILESTR = '../pred_shape_ipnode/pred_gasL%dA%d.ipnode'
+STRAINFILESTR = '../strain/strainL%dA%d.exdata'
+PREDSTRAINFILESTR = '../pred_strain/pred_strainL%dA%d.exdata'
+STRESSFILESTR = '../stress/stressL%dA%d.exdata'
+PREDSTRESSFILESTR = '../pred_stress/pred_stressL%dA%d.exdata'
 STRESSFIELDS = [8,9,10,11,12,13,14,15,16]
 STRAINFIELDS = [8,9,10,11,12,13,14,15,16]
 
@@ -88,6 +93,9 @@ def plsPredict(pls, X, realY):
 	predY = pls.predict(X)
 	dY = realY - predY
 	return predY, dY
+
+def svmTrain(X, Y, k):
+	sv = svm.SVC()
 
 def makeKFoldIndices(I, k):
 	"""Generate testing and training observation indices for k-fold 

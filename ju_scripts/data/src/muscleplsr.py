@@ -2,10 +2,15 @@
 script for training and using PLSR models of muscle contraction
 
 Ju Zhang
+
+updated to try support vector regression to improve predictions
+
+Geoff Handsfield
 """
 
 import numpy as np
 from sklearn.pls import PLSRegression
+from sklearn.svm import SVR # add line to import support vector regression functions -gh
 import cmissio
 
 #=========================================================================#
