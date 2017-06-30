@@ -1,0 +1,21 @@
+ 
+  Number of nodes in region 1 is 6. Listing nodes:
+      1     2     3     4     5     6
+ 
+ 
+  Nodal coordinates: (rectangular cartesian)
+  Node    1 nj= 1 (x     )      -0.9084E+00
+            nj= 2 (y     )      -0.9084E+00
+  Node    2 nj= 1 (x     )       0.1044E-01
+            nj= 2 (y     )      -0.2958E+00
+  Node    3 nj= 1 (x     )       0.9014E+00
+            nj= 2 (y     )      -0.8875E+00
+  Node    4 nj= 1 (x     )      -0.9153E+00
+            nj= 2 (y     )       0.8875E+00
+  Node    5 nj= 1 (x     )      -0.3480E-02
+            nj= 2 (y     )       0.2889E+00
+  Node    6 nj= 1 (x     )       0.8944E+00
+            nj= 2 (y     )       0.8805E+00
+ 
+    Highest node # in region #  1 is      6
+    Highest node # in all regions is      6
