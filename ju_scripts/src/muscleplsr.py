@@ -107,7 +107,8 @@ def plsPredict(pls, X, realY):
 	return predY, dY
 
 
-# def svrTrain #something i'm working on
+# def svrTrain      #something i'm working on
+# def svrPredict    #something i'm working on
 
 def makeKFoldIndices(I, k):
 	"""Generate testing and training observation indices for k-fold 

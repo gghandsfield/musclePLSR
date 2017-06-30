@@ -17,7 +17,7 @@ fem def nodes;r;simulate_$component  reg $REG
 fem def elements;r;simulate_$component  reg $REG
 
 # Define muscle fibre field (nj 4,5,6)
-fem def fibre;r;DTI_gastroc_fibre reg $REG
+fem def fibre;r;fitted_TD_DTI reg $REG
 fem def elements;r;simulate_$component fibre reg $REG
 
 fem export nodes;init_gas as gas reg 1

@@ -17,7 +17,7 @@ fem def nodes;r;simulate_$component  reg $REG
 fem def elements;r;simulate_$component  reg $REG
 
 # Define muscle fibre field (nj 4,5,6)
-fem def fibre;r;DTI_gastroc_fibre reg $REG
+fem def fibre;r;fitted_TD_DTI reg $REG
 fem def elements;r;simulate_$component fibre reg $REG
 
 fem export nodes;init_gas as gas reg 1
@@ -46,10 +46,10 @@ fem exp elements;init_simulate_$component as $component reg $REG
 }
 
 # define solve
-for($k=1;$k<=11;$k++)
+for($k=1;$k<=1;$k++)
 {
 fem def acti;r;simulate_gas$k reg $REG 
-fem solve error 1.0D-03 iterate 10 reg $REG
+fem solve error 1.0D-03 increment 0 iterate 8 reg $REG
 }
 
 # outputs opstre

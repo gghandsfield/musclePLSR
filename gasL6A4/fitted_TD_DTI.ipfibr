@@ -1,0 +1,499 @@
+ CMISS Version 2.1  ipfibr File Version 3
+ Heading:
+ 
+ The number of fibre variables is [1]: 3
+ Specify how fibre angle is defined [1]:
+  (1) wrt Xi(1) coordinate
+   (2) wrt Xi(2) coordinate
+    1
+ Specify whether angles entered in [1]:
+   (1) degrees
+   (2) radians
+    1
+ The number of nodes is [    96]:     96
+ Do you want prompting for different versions of the fibre angle [N]? N
+ Do you want prompting for different versions of the imbrication angle [N]? N
+ Do you want prompting for different versions of the sheet angle [N]? N
+ The number of derivatives for the fibre angle is [0]: 0
+ The number of derivatives for the imbrication angle is [0]: 0
+ The number of derivatives for the sheet angle is [0]: 0
+
+ Node number [     1]:      1
+ The fibre angle is [ 0.00000E+00]:  -71.3920
+ The imbrication angle is [ 0.00000E+00]:   -0.1647
+ The sheet angle is [ 0.00000E+00]:   -4.6667
+
+ Node number [     2]:      2
+ The fibre angle is [ 0.00000E+00]:  -32.5210
+ The imbrication angle is [ 0.00000E+00]:    0.3253
+ The sheet angle is [ 0.00000E+00]:   -2.2828
+
+ Node number [     3]:      3
+ The fibre angle is [ 0.00000E+00]:   14.9010
+ The imbrication angle is [ 0.00000E+00]:    0.6394
+ The sheet angle is [ 0.00000E+00]:   -3.4325
+
+ Node number [     4]:      4
+ The fibre angle is [ 0.00000E+00]:   57.6710
+ The imbrication angle is [ 0.00000E+00]:    0.4249
+ The sheet angle is [ 0.00000E+00]:   -2.8620
+
+ Node number [     5]:      5
+ The fibre angle is [ 0.00000E+00]:   24.5360
+ The imbrication angle is [ 0.00000E+00]:    0.5172
+ The sheet angle is [ 0.00000E+00]:   -3.2001
+
+ Node number [     6]:      6
+ The fibre angle is [ 0.00000E+00]:  -26.8450
+ The imbrication angle is [ 0.00000E+00]:    0.2363
+ The sheet angle is [ 0.00000E+00]:   -4.7104
+
+ Node number [     7]:      7
+ The fibre angle is [ 0.00000E+00]:  -86.1880
+ The imbrication angle is [ 0.00000E+00]:   -0.0659
+ The sheet angle is [ 0.00000E+00]:   -0.0730
+
+ Node number [     8]:      8
+ The fibre angle is [ 0.00000E+00]:  -84.2070
+ The imbrication angle is [ 0.00000E+00]:    0.1085
+ The sheet angle is [ 0.00000E+00]:    0.1428
+
+ Node number [     9]:      9
+ The fibre angle is [ 0.00000E+00]:  -80.8450
+ The imbrication angle is [ 0.00000E+00]:   -0.0109
+ The sheet angle is [ 0.00000E+00]:   -0.8335
+
+ Node number [    10]:     10
+ The fibre angle is [ 0.00000E+00]:  -66.4920
+ The imbrication angle is [ 0.00000E+00]:   -0.1067
+ The sheet angle is [ 0.00000E+00]:   -1.8138
+
+ Node number [    11]:     11
+ The fibre angle is [ 0.00000E+00]:  -58.7290
+ The imbrication angle is [ 0.00000E+00]:   -0.1345
+ The sheet angle is [ 0.00000E+00]:   -1.1599
+
+ Node number [    12]:     12
+ The fibre angle is [ 0.00000E+00]:  -81.2570
+ The imbrication angle is [ 0.00000E+00]:   -0.2588
+ The sheet angle is [ 0.00000E+00]:   -0.7942
+
+ Node number [    13]:     13
+ The fibre angle is [ 0.00000E+00]:  -97.4680
+ The imbrication angle is [ 0.00000E+00]:   -0.7690
+ The sheet angle is [ 0.00000E+00]:    0.0044
+
+ Node number [    14]:     14
+ The fibre angle is [ 0.00000E+00]:  -88.4560
+ The imbrication angle is [ 0.00000E+00]:   -0.0212
+ The sheet angle is [ 0.00000E+00]:    1.0736
+
+ Node number [    15]:     15
+ The fibre angle is [ 0.00000E+00]:  -77.7980
+ The imbrication angle is [ 0.00000E+00]:    0.2411
+ The sheet angle is [ 0.00000E+00]:    0.5084
+
+ Node number [    16]:     16
+ The fibre angle is [ 0.00000E+00]:  -79.2430
+ The imbrication angle is [ 0.00000E+00]:    0.2072
+ The sheet angle is [ 0.00000E+00]:   -0.0712
+
+ Node number [    17]:     17
+ The fibre angle is [ 0.00000E+00]:  -69.3970
+ The imbrication angle is [ 0.00000E+00]:    0.2022
+ The sheet angle is [ 0.00000E+00]:   -2.0528
+
+ Node number [    18]:     18
+ The fibre angle is [ 0.00000E+00]:  -62.8350
+ The imbrication angle is [ 0.00000E+00]:   -0.2579
+ The sheet angle is [ 0.00000E+00]:   -1.5724
+
+ Node number [    19]:     19
+ The fibre angle is [ 0.00000E+00]:  -87.9690
+ The imbrication angle is [ 0.00000E+00]:   -0.8798
+ The sheet angle is [ 0.00000E+00]:   -4.7941
+
+ Node number [    20]:     20
+ The fibre angle is [ 0.00000E+00]:  -17.0700
+ The imbrication angle is [ 0.00000E+00]:    1.0622
+ The sheet angle is [ 0.00000E+00]:   -1.9301
+
+ Node number [    21]:     21
+ The fibre angle is [ 0.00000E+00]:   39.8070
+ The imbrication angle is [ 0.00000E+00]:    1.2221
+ The sheet angle is [ 0.00000E+00]:   -2.6463
+
+ Node number [    22]:     22
+ The fibre angle is [ 0.00000E+00]:   67.0430
+ The imbrication angle is [ 0.00000E+00]:   -0.0480
+ The sheet angle is [ 0.00000E+00]:   -0.8348
+
+ Node number [    23]:     23
+ The fibre angle is [ 0.00000E+00]:   48.2890
+ The imbrication angle is [ 0.00000E+00]:    0.6742
+ The sheet angle is [ 0.00000E+00]:   -2.5467
+
+ Node number [    24]:     24
+ The fibre angle is [ 0.00000E+00]:  -13.6680
+ The imbrication angle is [ 0.00000E+00]:    0.4982
+ The sheet angle is [ 0.00000E+00]:   -5.7758
+
+ Node number [    25]:     25
+ The fibre angle is [ 0.00000E+00]: -126.9200
+ The imbrication angle is [ 0.00000E+00]:   -0.3934
+ The sheet angle is [ 0.00000E+00]:   -3.8107
+
+ Node number [    26]:     26
+ The fibre angle is [ 0.00000E+00]: -120.9400
+ The imbrication angle is [ 0.00000E+00]:    0.1379
+ The sheet angle is [ 0.00000E+00]:    3.6005
+
+ Node number [    27]:     27
+ The fibre angle is [ 0.00000E+00]:  -79.4670
+ The imbrication angle is [ 0.00000E+00]:    0.3021
+ The sheet angle is [ 0.00000E+00]:    0.8630
+
+ Node number [    28]:     28
+ The fibre angle is [ 0.00000E+00]:  -64.7970
+ The imbrication angle is [ 0.00000E+00]:    0.2842
+ The sheet angle is [ 0.00000E+00]:    0.2305
+
+ Node number [    29]:     29
+ The fibre angle is [ 0.00000E+00]:  -64.1480
+ The imbrication angle is [ 0.00000E+00]:    0.6844
+ The sheet angle is [ 0.00000E+00]:    0.0337
+
+ Node number [    30]:     30
+ The fibre angle is [ 0.00000E+00]:  -81.4810
+ The imbrication angle is [ 0.00000E+00]:    1.3202
+ The sheet angle is [ 0.00000E+00]:    1.9076
+
+ Node number [    31]:     31
+ The fibre angle is [ 0.00000E+00]:  -27.3260
+ The imbrication angle is [ 0.00000E+00]:    2.6734
+ The sheet angle is [ 0.00000E+00]:   -4.6405
+
+ Node number [    32]:     32
+ The fibre angle is [ 0.00000E+00]:   43.9040
+ The imbrication angle is [ 0.00000E+00]:    0.3704
+ The sheet angle is [ 0.00000E+00]:   -2.6338
+
+ Node number [    33]:     33
+ The fibre angle is [ 0.00000E+00]:   44.2360
+ The imbrication angle is [ 0.00000E+00]:   -0.2661
+ The sheet angle is [ 0.00000E+00]:    0.0896
+
+ Node number [    34]:     34
+ The fibre angle is [ 0.00000E+00]:   46.7050
+ The imbrication angle is [ 0.00000E+00]:   -0.6876
+ The sheet angle is [ 0.00000E+00]:    0.1969
+
+ Node number [    35]:     35
+ The fibre angle is [ 0.00000E+00]:   55.6790
+ The imbrication angle is [ 0.00000E+00]:   -0.4051
+ The sheet angle is [ 0.00000E+00]:   -0.6302
+
+ Node number [    36]:     36
+ The fibre angle is [ 0.00000E+00]:   -5.5203
+ The imbrication angle is [ 0.00000E+00]:   -0.3793
+ The sheet angle is [ 0.00000E+00]:   -7.1361
+
+ Node number [    37]:     37
+ The fibre angle is [ 0.00000E+00]:  -25.2070
+ The imbrication angle is [ 0.00000E+00]:   -1.5488
+ The sheet angle is [ 0.00000E+00]:   -4.6991
+
+ Node number [    38]:     38
+ The fibre angle is [ 0.00000E+00]:  -47.3560
+ The imbrication angle is [ 0.00000E+00]:   -0.4752
+ The sheet angle is [ 0.00000E+00]:   -1.2009
+
+ Node number [    39]:     39
+ The fibre angle is [ 0.00000E+00]: -100.6400
+ The imbrication angle is [ 0.00000E+00]:    1.6750
+ The sheet angle is [ 0.00000E+00]:   -0.9047
+
+ Node number [    40]:     40
+ The fibre angle is [ 0.00000E+00]:  -58.9140
+ The imbrication angle is [ 0.00000E+00]:    0.4059
+ The sheet angle is [ 0.00000E+00]:    0.3200
+
+ Node number [    41]:     41
+ The fibre angle is [ 0.00000E+00]:  -48.0080
+ The imbrication angle is [ 0.00000E+00]:    0.2440
+ The sheet angle is [ 0.00000E+00]:   -0.0186
+
+ Node number [    42]:     42
+ The fibre angle is [ 0.00000E+00]:  -32.4200
+ The imbrication angle is [ 0.00000E+00]:    0.3403
+ The sheet angle is [ 0.00000E+00]:   -0.7543
+
+ Node number [    43]:     43
+ The fibre angle is [ 0.00000E+00]:   22.3550
+ The imbrication angle is [ 0.00000E+00]:    0.7863
+ The sheet angle is [ 0.00000E+00]:   -3.6747
+
+ Node number [    44]:     44
+ The fibre angle is [ 0.00000E+00]:   44.3980
+ The imbrication angle is [ 0.00000E+00]:    0.7025
+ The sheet angle is [ 0.00000E+00]:    3.2154
+
+ Node number [    45]:     45
+ The fibre angle is [ 0.00000E+00]:   35.9250
+ The imbrication angle is [ 0.00000E+00]:    0.9944
+ The sheet angle is [ 0.00000E+00]:    1.9006
+
+ Node number [    46]:     46
+ The fibre angle is [ 0.00000E+00]:   24.9530
+ The imbrication angle is [ 0.00000E+00]:   -0.1713
+ The sheet angle is [ 0.00000E+00]:    0.9809
+
+ Node number [    47]:     47
+ The fibre angle is [ 0.00000E+00]:   -5.6138
+ The imbrication angle is [ 0.00000E+00]:   -0.8248
+ The sheet angle is [ 0.00000E+00]:    0.7534
+
+ Node number [    48]:     48
+ The fibre angle is [ 0.00000E+00]:  -75.5730
+ The imbrication angle is [ 0.00000E+00]:    0.7840
+ The sheet angle is [ 0.00000E+00]:    1.7816
+
+ Node number [    49]:     49
+ The fibre angle is [ 0.00000E+00]:  -24.7700
+ The imbrication angle is [ 0.00000E+00]:    0.2647
+ The sheet angle is [ 0.00000E+00]:   -0.3681
+
+ Node number [    50]:     50
+ The fibre angle is [ 0.00000E+00]:  -32.6030
+ The imbrication angle is [ 0.00000E+00]:    0.1990
+ The sheet angle is [ 0.00000E+00]:   -0.2856
+
+ Node number [    51]:     51
+ The fibre angle is [ 0.00000E+00]:  -12.1290
+ The imbrication angle is [ 0.00000E+00]:    0.1550
+ The sheet angle is [ 0.00000E+00]:   -1.0780
+
+ Node number [    52]:     52
+ The fibre angle is [ 0.00000E+00]:   34.0780
+ The imbrication angle is [ 0.00000E+00]:   -0.3988
+ The sheet angle is [ 0.00000E+00]:   -2.2602
+
+ Node number [    53]:     53
+ The fibre angle is [ 0.00000E+00]:   65.2240
+ The imbrication angle is [ 0.00000E+00]:   -1.0791
+ The sheet angle is [ 0.00000E+00]:   -1.3090
+
+ Node number [    54]:     54
+ The fibre angle is [ 0.00000E+00]:  104.0000
+ The imbrication angle is [ 0.00000E+00]:   -0.5004
+ The sheet angle is [ 0.00000E+00]:   -0.5267
+
+ Node number [    55]:     55
+ The fibre angle is [ 0.00000E+00]:   47.9930
+ The imbrication angle is [ 0.00000E+00]:    0.3646
+ The sheet angle is [ 0.00000E+00]:    7.1619
+
+ Node number [    56]:     56
+ The fibre angle is [ 0.00000E+00]:  -29.9860
+ The imbrication angle is [ 0.00000E+00]:    0.2849
+ The sheet angle is [ 0.00000E+00]:    1.4010
+
+ Node number [    57]:     57
+ The fibre angle is [ 0.00000E+00]:  -67.3250
+ The imbrication angle is [ 0.00000E+00]:    2.3016
+ The sheet angle is [ 0.00000E+00]:   -0.1960
+
+ Node number [    58]:     58
+ The fibre angle is [ 0.00000E+00]:   10.5780
+ The imbrication angle is [ 0.00000E+00]:    0.4724
+ The sheet angle is [ 0.00000E+00]:    4.0726
+
+ Node number [    59]:     59
+ The fibre angle is [ 0.00000E+00]:  -40.7950
+ The imbrication angle is [ 0.00000E+00]:   -1.2148
+ The sheet angle is [ 0.00000E+00]:   -1.2526
+
+ Node number [    60]:     60
+ The fibre angle is [ 0.00000E+00]:  -13.2600
+ The imbrication angle is [ 0.00000E+00]:   -0.0534
+ The sheet angle is [ 0.00000E+00]:    0.3846
+
+ Node number [    61]:     61
+ The fibre angle is [ 0.00000E+00]:  -27.0840
+ The imbrication angle is [ 0.00000E+00]:   -0.0737
+ The sheet angle is [ 0.00000E+00]:    2.0905
+
+ Node number [    62]:     62
+ The fibre angle is [ 0.00000E+00]:  -30.9830
+ The imbrication angle is [ 0.00000E+00]:    0.1608
+ The sheet angle is [ 0.00000E+00]:   -1.9203
+
+ Node number [    63]:     63
+ The fibre angle is [ 0.00000E+00]:  -34.5470
+ The imbrication angle is [ 0.00000E+00]:    0.0895
+ The sheet angle is [ 0.00000E+00]:    0.1189
+
+ Node number [    64]:     64
+ The fibre angle is [ 0.00000E+00]:  -23.4230
+ The imbrication angle is [ 0.00000E+00]:    0.0326
+ The sheet angle is [ 0.00000E+00]:   -2.0398
+
+ Node number [    65]:     65
+ The fibre angle is [ 0.00000E+00]:   -8.1697
+ The imbrication angle is [ 0.00000E+00]:    0.0565
+ The sheet angle is [ 0.00000E+00]:   -2.7911
+
+ Node number [    66]:     66
+ The fibre angle is [ 0.00000E+00]:   -5.2787
+ The imbrication angle is [ 0.00000E+00]:   -0.1339
+ The sheet angle is [ 0.00000E+00]:    0.3080
+
+ Node number [    67]:     67
+ The fibre angle is [ 0.00000E+00]:  -10.2700
+ The imbrication angle is [ 0.00000E+00]:   -0.0901
+ The sheet angle is [ 0.00000E+00]:    2.2305
+
+ Node number [    68]:     68
+ The fibre angle is [ 0.00000E+00]:  -27.8600
+ The imbrication angle is [ 0.00000E+00]:   -0.0806
+ The sheet angle is [ 0.00000E+00]:    1.7082
+
+ Node number [    69]:     69
+ The fibre angle is [ 0.00000E+00]:  -11.4950
+ The imbrication angle is [ 0.00000E+00]:   -0.0131
+ The sheet angle is [ 0.00000E+00]:   -2.3418
+
+ Node number [    70]:     70
+ The fibre angle is [ 0.00000E+00]:  -49.9770
+ The imbrication angle is [ 0.00000E+00]:    0.7372
+ The sheet angle is [ 0.00000E+00]:   -1.2842
+
+ Node number [    71]:     71
+ The fibre angle is [ 0.00000E+00]:  -40.3930
+ The imbrication angle is [ 0.00000E+00]:    0.1286
+ The sheet angle is [ 0.00000E+00]:    2.4066
+
+ Node number [    72]:     72
+ The fibre angle is [ 0.00000E+00]:  -28.0810
+ The imbrication angle is [ 0.00000E+00]:   -0.0711
+ The sheet angle is [ 0.00000E+00]:    1.2926
+
+ Node number [    73]:     73
+ The fibre angle is [ 0.00000E+00]:  -30.9180
+ The imbrication angle is [ 0.00000E+00]:   -0.0455
+ The sheet angle is [ 0.00000E+00]:    0.7997
+
+ Node number [    74]:     74
+ The fibre angle is [ 0.00000E+00]:  -23.8470
+ The imbrication angle is [ 0.00000E+00]:   -0.0533
+ The sheet angle is [ 0.00000E+00]:    0.0427
+
+ Node number [    75]:     75
+ The fibre angle is [ 0.00000E+00]:  -27.0140
+ The imbrication angle is [ 0.00000E+00]:   -0.0762
+ The sheet angle is [ 0.00000E+00]:    0.4395
+
+ Node number [    76]:     76
+ The fibre angle is [ 0.00000E+00]:  -22.6960
+ The imbrication angle is [ 0.00000E+00]:   -0.1661
+ The sheet angle is [ 0.00000E+00]:   -0.0407
+
+ Node number [    77]:     77
+ The fibre angle is [ 0.00000E+00]:  -21.4470
+ The imbrication angle is [ 0.00000E+00]:   -0.1716
+ The sheet angle is [ 0.00000E+00]:   -0.5687
+
+ Node number [    78]:     78
+ The fibre angle is [ 0.00000E+00]:   -9.0770
+ The imbrication angle is [ 0.00000E+00]:   -0.0344
+ The sheet angle is [ 0.00000E+00]:   -3.6578
+
+ Node number [    79]:     79
+ The fibre angle is [ 0.00000E+00]:    7.6557
+ The imbrication angle is [ 0.00000E+00]:   -0.3621
+ The sheet angle is [ 0.00000E+00]:   -1.0798
+
+ Node number [    80]:     80
+ The fibre angle is [ 0.00000E+00]:   -1.4039
+ The imbrication angle is [ 0.00000E+00]:   -0.3184
+ The sheet angle is [ 0.00000E+00]:    3.1091
+
+ Node number [    81]:     81
+ The fibre angle is [ 0.00000E+00]:  -27.9880
+ The imbrication angle is [ 0.00000E+00]:   -0.0720
+ The sheet angle is [ 0.00000E+00]:   -0.0215
+
+ Node number [    82]:     82
+ The fibre angle is [ 0.00000E+00]:  -20.0520
+ The imbrication angle is [ 0.00000E+00]:   -0.2231
+ The sheet angle is [ 0.00000E+00]:    0.6825
+
+ Node number [    83]:     83
+ The fibre angle is [ 0.00000E+00]:  -16.4970
+ The imbrication angle is [ 0.00000E+00]:   -0.0777
+ The sheet angle is [ 0.00000E+00]:   -1.2647
+
+ Node number [    84]:     84
+ The fibre angle is [ 0.00000E+00]:  -31.6930
+ The imbrication angle is [ 0.00000E+00]:    0.1494
+ The sheet angle is [ 0.00000E+00]:   -0.0163
+
+ Node number [    85]:     85
+ The fibre angle is [ 0.00000E+00]:  -22.9950
+ The imbrication angle is [ 0.00000E+00]:   -0.0972
+ The sheet angle is [ 0.00000E+00]:    0.1602
+
+ Node number [    86]:     86
+ The fibre angle is [ 0.00000E+00]:  -37.5510
+ The imbrication angle is [ 0.00000E+00]:   -0.3369
+ The sheet angle is [ 0.00000E+00]:    2.1192
+
+ Node number [    87]:     87
+ The fibre angle is [ 0.00000E+00]:  -85.7480
+ The imbrication angle is [ 0.00000E+00]:   -0.1640
+ The sheet angle is [ 0.00000E+00]:    2.1488
+
+ Node number [    88]:     88
+ The fibre angle is [ 0.00000E+00]:  -37.6090
+ The imbrication angle is [ 0.00000E+00]:   -0.8009
+ The sheet angle is [ 0.00000E+00]:   -6.0162
+
+ Node number [    89]:     89
+ The fibre angle is [ 0.00000E+00]:  -22.2370
+ The imbrication angle is [ 0.00000E+00]:   -1.0556
+ The sheet angle is [ 0.00000E+00]:   -1.6135
+
+ Node number [    90]:     90
+ The fibre angle is [ 0.00000E+00]:   -9.8780
+ The imbrication angle is [ 0.00000E+00]:    0.0384
+ The sheet angle is [ 0.00000E+00]:    1.7853
+
+ Node number [    91]:     91
+ The fibre angle is [ 0.00000E+00]:   34.8670
+ The imbrication angle is [ 0.00000E+00]:   -0.7348
+ The sheet angle is [ 0.00000E+00]:    3.5699
+
+ Node number [    92]:     92
+ The fibre angle is [ 0.00000E+00]:   36.0380
+ The imbrication angle is [ 0.00000E+00]:   -0.8467
+ The sheet angle is [ 0.00000E+00]:   -3.3250
+
+ Node number [    93]:     93
+ The fibre angle is [ 0.00000E+00]:    7.6961
+ The imbrication angle is [ 0.00000E+00]:   -0.5813
+ The sheet angle is [ 0.00000E+00]:   -1.0715
+
+ Node number [    94]:     94
+ The fibre angle is [ 0.00000E+00]:   -0.4697
+ The imbrication angle is [ 0.00000E+00]:   -0.5449
+ The sheet angle is [ 0.00000E+00]:   -0.7357
+
+ Node number [    95]:     95
+ The fibre angle is [ 0.00000E+00]:  -12.7370
+ The imbrication angle is [ 0.00000E+00]:   -0.1513
+ The sheet angle is [ 0.00000E+00]:   -0.7468
+
+ Node number [    96]:     96
+ The fibre angle is [ 0.00000E+00]:  -23.7650
+ The imbrication angle is [ 0.00000E+00]:    0.0653
+ The sheet angle is [ 0.00000E+00]:   -0.3798

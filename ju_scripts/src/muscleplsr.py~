@@ -20,12 +20,12 @@ reload(cmissio)
 # constants
 ACTIVATIONS = (0.0, 0.2, 0.4, 0.6, 0.8, 1.0)
 LENGTHS = (380, 384, 388, 392, 396, 400)
-SHAPEFILESTR = '../shape_ipnode/gasL%dA%d.ipnode'
-PREDSHAPEFILESTR = '../pred_shape_ipnode/pred_gasL%dA%d.ipnode'
-STRAINFILESTR = '../strain/strainL%dA%d.exdata'
-PREDSTRAINFILESTR = '../pred_strain/pred_strainL%dA%d.exdata'
-STRESSFILESTR = '../stress/stressL%dA%d.exdata'
-PREDSTRESSFILESTR = '../pred_stress/pred_stressL%dA%d.exdata'
+SHAPEFILESTR = '../data/shape_ipnode/gasL%dA%d.ipnode'
+PREDSHAPEFILESTR = '../data/pred_shape_ipnode/pred_gasL%dA%d.ipnode'
+STRAINFILESTR = '../data/strain/strainL%dA%d.exdata'
+PREDSTRAINFILESTR = '../data/pred_strain/pred_strainL%dA%d.exdata'
+STRESSFILESTR = '../data/stress/stressL%dA%d.exdata'
+PREDSTRESSFILESTR = '../data/pred_stress/pred_stressL%dA%d.exdata'
 STRESSFIELDS = [8,9,10,11,12,13,14,15,16]
 STRAINFIELDS = [8,9,10,11,12,13,14,15,16]
 STRESSFIELDCOMPONENTS = [1,1,1,1,1,1,3,3,3]
