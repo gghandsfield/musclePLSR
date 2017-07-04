@@ -49,8 +49,7 @@ def _loadStress(filename):
 	"""Load stress variables from exdata file. Fields loaded are
 	principal stresses, principal directions, 3 scalar stresses
 	"""
-	header, fields, nodes, values = cmissio.readExdata(
-										filename, STRESSFIELDS)
+	header, fields, nodes, values = cmissio.readExdata(filename, STRESSFIELDS)
 	X = np.hstack([np.hstack(x) for x in values])
 	return X
 
@@ -58,8 +57,7 @@ def _loadStrain(filename):
 	"""Load strain variables from exdata file. Fields loaded are
 	principal strains, principal directions, 3 scalar strains
 	"""
-	header, fields, nodes, values = cmissio.readExdata(
-										filename, STRAINFIELDS)
+	header, fields, nodes, values = cmissio.readExdata(filename, STRAINFIELDS)
 	X = np.hstack([np.hstack(x) for x in values])
 	return X
 
@@ -107,7 +105,8 @@ def plsPredict(pls, X, realY):
 	return predY, dY
 
 
-# def svrTrain #something i'm working on
+# def svrTrain      #something i'm working on
+# def svrPredict    #something i'm working on
 
 def makeKFoldIndices(I, k):
 	"""Generate testing and training observation indices for k-fold 

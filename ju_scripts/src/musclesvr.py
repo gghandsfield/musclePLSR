@@ -1,12 +1,8 @@
 """
-script for training and using PLSR models of muscle contraction
+script for training and using SVR models of muscle contraction
 
-Ju Zhang
-
-
-updated to try support vector regression to improve predictions
-
-Geoff Handsfield
+Geoff Handsfield,
+adapted from muscleplsr code written by Ju Zhang
 """
 
 import numpy as np
@@ -33,7 +29,7 @@ STRAINFIELDCOMPONENTS = [1,1,1,1,1,1,3,3,3]
 
 # parameters
 skips = [(400, 1.0),(396, 1.0),(392, 1.0),(388, 1.0), (384, 1.0),(380, 1.0)]	# observations to skip, outliers
-plsrK = 2 				# number of plsr modes (1 or 2)
+svrK = 2 				# number of svr modes (1 or 2)
 responseName = 'geometry'	#'geometry', 'stress', or 'strain'
 xvalK = 36 - len(skips) # number of folds for k-fold cross validation. For leave 1 out, this 
 						# should be the number of observations
@@ -89,24 +85,22 @@ def makeXY(reponseName, skips=None):
 
 	return np.array(X), np.array(Y)
 
-def plsTrain(X, Y, k):
-	"""Train PLSR model with k modes for predicting Y given X
+#svr training (work in progress)
+def svrTrain(X, Y, k):
+	"""Train SVR model with k modes for predicting Y given X
 	"""
-	pls = PLSRegression(n_components=k, max_iter=500)
-	pls.fit(X, Y)
-	return pls
+	clf = SVR(C = 1.0, epsilon=0.2)
+	clf.fit(X,Y)
+	return clf
 
-def plsPredict(pls, X, realY):
-	"""Given a PLSR model pls, and independent variables X, predict
-	Y, and calculated difference to realY
+#svr prediction (work in progress)
+def svrPredict(clf, X, realY):
+	"""Given a SVR model clf, and independent variables X, predict
+	Y, and calcualted difference to realY
 	"""
-	predY = pls.predict(X)
+	predY = clf.predict(X)
 	dY = realY - predY
 	return predY, dY
-
-
-# def svrTrain      #something i'm working on
-# def svrPredict    #something i'm working on
 
 def makeKFoldIndices(I, k):
 	"""Generate testing and training observation indices for k-fold 
@@ -224,7 +218,7 @@ PCA.plotModeScatter(pc, 0, 1, None, labels, nTailLabels='all')
 # meanRMSE = np.mean(l1oRMSES)
 
 #=========================#
-# PLSR with leave one out #
+# SVR with leave one out #
 #=========================#
 rmses = []
 xvalInds = makeKFoldIndices(range(X.shape[0]), xvalK)
@@ -234,12 +228,12 @@ for testInd, trainInd in xvalInds:
 	testX = X[testInd,:]	
 	testY = Y[testInd,:]
 
-	# train plsr model
-	pls = plsTrain(trainX, trainY,plsrK)
+	# train svr model
+	clf = svrTrain(trainX, trainY,svrK)
 	# make prediction
-	pY, dY = plsPredict(pls, testX, testY)
+	pY, dY = svrPredict(clf, testX, testY)
 	rmses.append(np.sqrt((dY**2.0).mean()))
 	# write prediction to file
 	writePredictions(pY, responseName, testX)
 
-print 'PLSR L1O Mean RMSE:', np.mean(rmses)
+print 'SVR L1O Mean RMSE:', np.mean(rmses)
