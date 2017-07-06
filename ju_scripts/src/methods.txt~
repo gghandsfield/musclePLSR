@@ -30,8 +30,8 @@
 **Results:
 - Average L1O RMS errors: 0.068 for geometry, 0.29 for stress, 0.27 for strain.
 - PCA scatterplot for the first 2 pcs of the geometry PCA showed a distint grid-like pattern. This suggests that muscle length and activation produce orthogonal variations in muscle geometry. This makes sense since muscle length is orthogonal to muscle width (bulging) which is affected by activation level.
-- PCA scatterplot for the first 2 pcs of the stress PCA showed a warped grid pattern suggesting stress patterns are affected non-linearly by length and activation. It also suggests that L400A1.0 could be anomalous.
-- PCA scatterplot for the first 2 pcs of the strain PCA showed strain patterns distributed in a very clear parabolic shape. This suggest a strong non-linear relationship between length/activation and strain.
+- PCA scatterplot for the first 2 pcs of the geometry PCA showed a warped grid pattern suggesting stress patterns are affected non-linearly by length and activation. It also suggests that L400A1.0 could be anomalous.
+- PCA scatterplot for the first 2 pcs of the geometry PCA showed strain patterns distributed in a very clear parabolic shape. This suggest a strong non-linear relationship between length/activation and strain.
 - Both stress and strain PCA scatterplots show non-linear patterns and suggest that non-linear statistical method may achieved better dimension reduction and prediction accuracy. 
 
 References:

@@ -34,7 +34,7 @@ STRAINFIELDCOMPONENTS = [1,1,1,1,1,1,3,3,3]
 # parameters
 skips = [(400, 1.0),(396, 1.0),(392, 1.0),(388, 1.0), (384, 1.0),(380, 1.0)]	# observations to skip, outliers
 plsrK = 2 				# number of plsr modes (1 or 2)
-responseName = 'geometry'	#'geometry', 'stress', or 'strain'
+responseName = 'strain'	#'geometry', 'stress', or 'strain'
 xvalK = 36 - len(skips) # number of folds for k-fold cross validation. For leave 1 out, this 
 						# should be the number of observations
 
@@ -103,10 +103,6 @@ def plsPredict(pls, X, realY):
 	predY = pls.predict(X)
 	dY = realY - predY
 	return predY, dY
-
-
-# def svrTrain      #something i'm working on
-# def svrPredict    #something i'm working on
 
 def makeKFoldIndices(I, k):
 	"""Generate testing and training observation indices for k-fold 
@@ -243,5 +239,3 @@ for testInd, trainInd in xvalInds:
 	writePredictions(pY, responseName, testX)
 
 print 'PLSR L1O Mean RMSE:', np.mean(rmses)
-
-

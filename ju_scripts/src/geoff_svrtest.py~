@@ -1,72 +1,9 @@
+from sklearn.svm import SVR
 import numpy as np
-from sklearn.pls import PLSRegression
-from sklearn.svm import SVR # add line to import support vector regression functions -gh
-import cmissio
-import PCA
-
-
-def plsTrain(X, Y, k):
-	"""Train PLSR model with k modes for predicting Y given X
-	"""
-	pls = PLSRegression(n_components=k, max_iter=500)
-	pls.fit(X, Y)
-	return pls
-
-def plsPredict(pls, X, realY):
-	"""Given a PLSR model pls, and independent variables X, predict
-	Y, and calculated difference to realY
-	"""
-	predY = pls.predict(X)
-	dY = realY - predY
-	return predY, dY
-
-#svr training (work in progress)
-def svrTrain(X, Y, k):
-	"""Train SVR model with k modes for predicting Y given X
-	"""
-	clf = SVR(C = 1.0, epsilon=0.2)
-	clf.fit(X,Y)
-	return clf
-
-#svr prediction (work in progress)
-def svrPredict(clf, X, realY):
-	"""Given a SVR model clf, and independent variables X, predict
-	Y, and calcualted difference to realY
-	"""
-	predY = clf.predict(X)
-	dY = realY - predY
-	return predY, dY
-
-
- 
-
-
-#=========================#
-# SVR with leave one out #
-#=========================#
-rmses = []
-xvalInds = makeKFoldIndices(range(X.shape[0]), xvalK)
-for testInd, trainInd in xvalInds:
-	trainX = X[trainInd,:]
-	trainY = Y[trainInd,:]
-	testX = X[testInd,:]	
-	testY = Y[testInd,:]
-
-	# train plsr model
-	clf = svrTrain(trainX, trainY,plsrK)
-	# make prediction
-	pY, dY = svrPredict(clf, testX, testY)
-	rmses.append(np.sqrt((dY**2.0).mean()))
-	# write prediction to file
-	writePredictions(pY, responseName, testX)
-
-print 'SVR L1O Mean RMSE:', np.mean(rmses)
-
-
-
-
-SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.2, gamma='auto', kernel ='rbf', max_iter=-1, shrinking=True, tol=-.001, verbose=False)
-
-
-
-
+n_samples, n_features = 10, 5
+np.random.seed(0)
+y = np.random.randn(n_samples)
+X = np.random.randn(n_samples, n_features)
+clf = SVR(C=1.0, epsilon=0.2)
+clf.fit(X,y)
+print clf.fit(X,y)
