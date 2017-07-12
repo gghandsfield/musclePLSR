@@ -1,0 +1,9 @@
+go through ipnode file and grab the X coordinate and all derivatives, Y coordinate and all derivatives, and Z coordinate and all derivatives
+This will give you 24 variables
+Do this for all 36 simulations
+
+Create a 36x24 matrix
+
+This is the response matrix for geometry...
+
+The predictor matrix is the length and activation (more on this later)
