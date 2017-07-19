@@ -1,4 +1,4 @@
- Group name: actual_strain_L3A1
+ Group name: test
  #Fields=  17
  1) coordinates, coordinate, rectangular cartesian, #Components=3
    x.  Value index= 1, #Derivatives=0

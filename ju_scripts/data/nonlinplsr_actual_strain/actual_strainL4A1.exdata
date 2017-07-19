@@ -1,45 +1,47 @@
  Group name: actual_strain_L4A1
- #Fields=  16
+ #Fields=  17
  1) coordinates, coordinate, rectangular cartesian, #Components=3
    x.  Value index= 1, #Derivatives=0
    y.  Value index= 2, #Derivatives=0
    z.  Value index= 3, #Derivatives=0
- 2) Tensor_1, field, rectangular cartesian, #Components=1
+ 2) dummy, field, rectangular cartesian, #Components=1
    Tensor_1.  Value index= 4, #Derivatives=0
- 3) Tensor_2, field, rectangular cartesian, #Components=1
-   Tensor_2.  Value index= 5, #Derivatives=0
- 4) Tensor_3, field, rectangular cartesian, #Components=1
-   Tensor_3.  Value index= 6, #Derivatives=0
- 5) Tensor_4, field, rectangular cartesian, #Components=1
-   Tensor_4.  Value index= 7, #Derivatives=0
- 6) Tensor_5, field, rectangular cartesian, #Components=1
-   Tensor_5.  Value index= 8, #Derivatives=0
- 7) Tensor_6, field, rectangular cartesian, #Components=1
-   Tensor_6.  Value index= 9, #Derivatives=0
- 8) Principal_1, field, rectangular cartesian, #Components=1
-   Principal_1.  Value index= 10, #Derivatives=0
- 9) Principal_2, field, rectangular cartesian, #Components=1
-   Principal_2.  Value index= 11, #Derivatives=0
- 10) Principal_3, field, rectangular cartesian, #Components=1
-   Principal_3.  Value index= 12, #Derivatives=0
- 11) VonMises, field, rectangular cartesian, #Components=1
-   VonMises.  Value index= 13, #Derivatives=0
- 12) Hydrostatic, field, rectangular cartesian, #Components=1
+ 3) Tensor_1, field, rectangular cartesian, #Components=1
+   Tensor_1.  Value index= 5, #Derivatives=0
+ 4) Tensor_2, field, rectangular cartesian, #Components=1
+   Tensor_2.  Value index= 6, #Derivatives=0
+ 5) Tensor_3, field, rectangular cartesian, #Components=1
+   Tensor_3.  Value index= 7, #Derivatives=0
+ 6) Tensor_4, field, rectangular cartesian, #Components=1
+   Tensor_4.  Value index= 8, #Derivatives=0
+ 7) Tensor_5, field, rectangular cartesian, #Components=1
+   Tensor_5.  Value index= 9, #Derivatives=0
+ 8) Tensor_6, field, rectangular cartesian, #Components=1
+   Tensor_6.  Value index= 10, #Derivatives=0
+ 9) Principal_1, field, rectangular cartesian, #Components=1
+   Principal_1.  Value index= 11, #Derivatives=0
+ 10) Principal_2, field, rectangular cartesian, #Components=1
+   Principal_2.  Value index= 12, #Derivatives=0
+ 11) Principal_3, field, rectangular cartesian, #Components=1
+   Principal_3.  Value index= 13, #Derivatives=0
+ 12) VonMises, field, rectangular cartesian, #Components=1
    VonMises.  Value index= 14, #Derivatives=0
- 13) Octahedral, field, rectangular cartesian, #Components=1
+ 13) Hydrostatic, field, rectangular cartesian, #Components=1
    VonMises.  Value index= 15, #Derivatives=0
- 14) PrincipalVector1, field, rectangular cartesian, #Components=3
-   x.  Value index= 16, #Derivatives=0
-   y.  Value index= 17, #Derivatives=0
-   z.  Value index= 18, #Derivatives=0
- 15) PrincipalVector2, field, rectangular cartesian, #Components=3
-   x.  Value index= 19, #Derivatives=0
-   y.  Value index= 20, #Derivatives=0
-   z.  Value index= 21, #Derivatives=0
- 16) PrincipalVector3, field, rectangular cartesian, #Components=3
-   x.  Value index= 22, #Derivatives=0
-   y.  Value index= 23, #Derivatives=0
-   z.  Value index= 24, #Derivatives=0
+ 14) Octahedral, field, rectangular cartesian, #Components=1
+   VonMises.  Value index= 16, #Derivatives=0
+ 15) PrincipalVector1, field, rectangular cartesian, #Components=3
+   x.  Value index= 17, #Derivatives=0
+   y.  Value index= 18, #Derivatives=0
+   z.  Value index= 19, #Derivatives=0
+ 16) PrincipalVector2, field, rectangular cartesian, #Components=3
+   x.  Value index= 20, #Derivatives=0
+   y.  Value index= 21, #Derivatives=0
+   z.  Value index= 22, #Derivatives=0
+ 17) PrincipalVector3, field, rectangular cartesian, #Components=3
+   x.  Value index= 23, #Derivatives=0
+   y.  Value index= 24, #Derivatives=0
+   z.  Value index= 25, #Derivatives=0
  Node:          1
   0.1287E+03  0.1133E+03  0.4908E+03 -0.3597E-04
   -1.11E-16
